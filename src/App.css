@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.TitleSection {
+  background-color: #5db9ff;
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.InputPokemons {
+  width: 13rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid #4899d8;
+  font-size: 16px;
+  padding-left: 1rem;
+}
+
+.Bnt-Pokemon {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #015da3;
+  font-size: 18px;
+  padding-left: 1rem;
+}
+.Bnt-Pokemon:hover {
+  cursor: pointer;
+}
+
+.DisplaySection {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9bc2e0;
+  border-radius: 15px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DisplaySection h1 {
+  font-size: 25px;
+  padding-left: 1rem;
+}
+
+.DisplaySection h3,
+h4,
+img {
+  margin: 0.5rem;
+  font-size: 20px;
+}
+
+.DisplaySection img {
+  width: 12rem;
+  height: auto;
+}
